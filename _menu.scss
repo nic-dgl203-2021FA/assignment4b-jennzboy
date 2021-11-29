@@ -80,5 +80,8 @@
         transform: translateY(-100%);
         @include transition-ease;
 
+        &.open {
+            transform: translateY(0);
+        }
     }
 }
