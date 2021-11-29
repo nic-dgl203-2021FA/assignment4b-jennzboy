@@ -6,3 +6,5 @@
     height: 20px;
     width: 28px;
     cursor: pointer;
+    @include transition-ease;
+
