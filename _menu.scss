@@ -78,5 +78,7 @@
         list-style: none;
         padding-right: 1rem;
         transform: translateY(-100%);
+        @include transition-ease;
+
     }
 }
