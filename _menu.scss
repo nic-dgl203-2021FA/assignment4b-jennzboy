@@ -62,6 +62,9 @@
     width: 100vw;
     opacity: 0.98;
     visibility: hidden;
+
+    &.open {
+        visibility: visible;
     }
 
 }
