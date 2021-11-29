@@ -19,3 +19,9 @@
         margin-top: 1rem;
         border-bottom: 2px solid #fff;
 
+        &--last {
+            color: $secondary-color;
+            font-weight: 700;
+        }
+    }
+}
