@@ -1,2 +1,2 @@
-.home{height:100%;padding-top:40vh;overflow:hidden;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;background:url("img/model-1.jpg") center top;background:cover}
+.home{height:100%;padding-top:40vh;overflow:hidden;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;background:-webkit-gradient(linear, left top, right top, from(rgba)) url("img/model-1.jpg") center top;background:linear-gradient(to right, rgba) url("img/model-1.jpg") center top;background:cover}
 /*# sourceMappingURL=home.min.css.map */
