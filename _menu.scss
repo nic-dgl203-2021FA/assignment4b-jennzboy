@@ -83,5 +83,8 @@
         &.open {
             transform: translateY(0);
         }
+
+        &__item {
+            transform: translateX(100vw);
     }
 }
