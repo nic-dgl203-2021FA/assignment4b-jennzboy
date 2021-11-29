@@ -69,5 +69,6 @@
 
     .menu-nav {
         display: flex;
+        flex-flow: column wrap;
     }
 }
