@@ -15,3 +15,6 @@
         width: 28px;
         height: 3px;
         background: set-text-color($primary-color);
+        @include transition-ease;
+    }
+}
