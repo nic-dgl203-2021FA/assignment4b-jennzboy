@@ -92,5 +92,9 @@
                 transform: translateX(0);
             }
 
+            &.active > a {
+                color: $secondary-color;
+            }
+        }
     }
 }
