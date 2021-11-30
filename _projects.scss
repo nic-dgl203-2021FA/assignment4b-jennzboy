@@ -23,12 +23,13 @@
         }
     }
 
-    .jobs {
+    &__items {
         width: 60vw;
         margin: 2rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
+    }
 
         &__job {
             background: lighten($primary-color, 10%);
