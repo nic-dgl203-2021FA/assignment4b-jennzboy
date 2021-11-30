@@ -37,8 +37,11 @@
         overflow: hidden;
         cursor: pointer;
 
+        img {
+            width: 100%;
         }
     }
+    
     .social-icons {
         display: flex;
         flex-direction: column;
