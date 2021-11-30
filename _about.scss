@@ -12,6 +12,8 @@
             ),
             url('img/model-1.jpg') center top;
         background: cover;
+        display: flex;
+        flex-direction: column;
     }
     
 }
