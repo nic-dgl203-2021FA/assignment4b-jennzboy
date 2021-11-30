@@ -69,7 +69,18 @@
         align-items: center;
         text-align: center;
     }
-    
+
+    &__btn {
+        opacity: 0;
+        color: set-text-color($secondary-color);
+        @include transition-ease;
+
+        &:hover {
+            color: set-text-color(set-text-color($secondary-color));
+        }
+
+    }
+
     .social-icons {
         display: flex;
         flex-direction: column;
