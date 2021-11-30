@@ -373,8 +373,7 @@
   .nav {
     visibility: visible;
   }
-
-  .menu-nav {
+  .nav .menu-nav {
     display: block;
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -382,30 +381,12 @@
     background: transparent;
     text-align: right;
   }
-  .menu-nav__item {
+  .nav .menu-nav__item {
     display: inline;
     padding-right: 1.5rem;
   }
-  .menu-nav__link {
+  .nav .menu-nav__link {
     font-size: 1.5rem;
-  }
-
-  .about__bio {
-    font-size: 1.5rem;
-  }
-
-  .projects__bio-image {
-    height: 40vh;
-  }
-  .projects__items {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .projects .text-secondary {
-    font-size: 3rem;
-  }
-
-  .contact__list {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1025px) {
