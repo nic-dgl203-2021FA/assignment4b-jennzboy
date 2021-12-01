@@ -50,6 +50,10 @@
     &__project-content {
         margin-top: 2rem;
 
+        .text-secondary {
+            font-size: 1.5rem;
+        }
+
     .social-icons {
         display: flex;
         flex-direction: column;
