@@ -72,6 +72,9 @@
             border: none;
             @include transition-ease;
 
+            &:hover {
+                color: $secondary-color;
+            }
         }
     }
 
